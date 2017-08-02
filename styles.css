@@ -1,0 +1,87 @@
+body {
+  background: hsl(0, 0%, 96%);
+}
+
+h1 {
+  text-align: center;
+}
+
+.fa-snapchat {
+  color: yellow;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar {
+  background-color: hsl(217, 71%, 53%);
+}
+
+a.navbar-item:hover {
+  background: hsl(0, 0%, 96%);
+}
+
+.navbar span {
+  background-color: white;
+}
+
+.navbar-burger.is-active span {
+  background-color: white;
+} 
+
+
+div.burger:hover span {
+  background-color: black;
+} 
+
+.columns {
+  background-color: white;  
+  min-height: 300px;
+}
+
+.left-pic {
+  border: 1px solid #eee
+}
+
+div.is-ancestor {
+  margin-left: 25px !important;
+  margin-right: 25px !important;
+}
+
+div.image-container {
+  overflow: hidden
+}
+
+.image {
+  transition: all .7s ease-in;
+}
+
+.tile {
+  min-height: 300px;
+}
+
+div.image-container:hover .image {
+  transform: scale(1.1);
+  transition: all 1s ease-in;
+  filter: brightness(.5);
+}
+
+#box-one {
+  background-color: hsl(48, 100%, 67%);
+}
+
+#box-two {
+  position: relative;
+  background-color: hsl(141, 71%, 48%);
+}
+
+#box-three {
+  background-color: hsl(0, 0%, 21%)
+}
+
+#box-four {
+  background-color: hsl(171, 100%, 41%);
+}
+
+#learn-more-btn {
+  margin-top: 20%;
+}
