@@ -1,5 +1,5 @@
 body {
-  background: hsl(0, 0%, 96%);
+  background: hsl(171, 100%, 41%);
 }
 
 h1 {
@@ -16,8 +16,15 @@ h1 {
   background-color: hsl(217, 71%, 53%);
 }
 
+.navbar-burger {
+  height: 4rem !important;
+}
 a.navbar-item:hover {
   background: hsl(0, 0%, 96%);
+}
+
+#brand:hover {
+  background: white;
 }
 
 .navbar span {
@@ -38,6 +45,10 @@ div.burger:hover span {
   min-height: 300px;
 }
 
+.hero {
+  background-color: hsl(171, 100%, 41%);
+}
+
 .left-pic {
   border: 1px solid #eee
 }
@@ -55,8 +66,8 @@ div.image-container {
   transition: all .7s ease-in;
 }
 
-.tile {
-  min-height: 300px;
+.image.is-square img {
+  border-radius: 5px;
 }
 
 div.image-container:hover .image {
@@ -84,4 +95,33 @@ div.image-container:hover .image {
 
 #learn-more-btn {
   margin-top: 20%;
+}
+
+.footer {
+  background: hsl(217, 71%, 53%);
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+a#name:hover {
+  color: white;  
+}
+
+a#large-pic-btn {
+  margin-top: 20px;
+  display: none;
+}
+
+@media screen and (max-width: 1070px) {
+  a#large-pic-btn {
+    display: inline-block;
+  }
+}
+
+h2.image-text {
+  position: absolute; 
+  top: 200px; 
+  left: 0; 
+  width: 100%; 
 }

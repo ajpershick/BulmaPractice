@@ -13,9 +13,9 @@
   <!--Navbar Start  -->
   <nav class="navbar">
     <div class="navbar-brand">
-      <a href="#" class="navbar-item has-text-white">
+      <a href="#" class="navbar-item has-text-white is-size-4" id="brand">
         <i class="fa fa-snapchat fa-2x navbar-item" aria-hidden="true" width="112" height="28"></i>
-        <h1 id="company-title ">SnapClass</h1>
+        <h1 id="company-title is-size-1">SnapClass</h1>
       </a>
 
       <div class="navbar-burger burger" data-target="navMenuExample">
@@ -27,10 +27,10 @@
 
     <div id="navMenuExample" class="navbar-menu">
       <div class="navbar-end">
-        <a class="navbar-item is-hidden-desktop-only has-text-white" href="https://github.com/jgthms/bulma" target="_blank">
+        <a class="navbar-item is-hidden-desktop-only has-text-white" href="https://github.com/mylesdawson" target="_blank">
           Github
         </a>
-        <a class="navbar-item is-hidden-desktop-only has-text-white" href="https://twitter.com/jgthms" target="_blank">
+        <a class="navbar-item is-hidden-desktop-only has-text-white" href="https://twitter.com/MylesADawson" target="_blank">
           Twitter
         </a>
       </div>
@@ -39,27 +39,30 @@
   <!-- Navbar End -->
 
   <!-- Hero Start  -->
-  <section class="hero has-text-centered">
+  <section class="hero has-text-centered ">
     <div class="hero-body">
-      <div class="container">
-        <h1 class="title">
+      <div class="container ">
+        <h1 class="title  has-text-white">
           SnapChat
         </h1>
-        <h2 class="subtitle">
+        <h2 class="subtitle  has-text-white">
           become a master of the Snap
         </h2>
+        <a class="button is-warning is-large is-outlined" id="action-call-btn">Learn More</a>
       </div>
     </div>
   </section>
   <!-- Hero End -->
   
   <!-- Tiles Start  -->
-  <div class="tile is-ancestor has-text-centered">
+  <section id="tiles-section">
+    <div class="tile is-ancestor has-text-centered" >
     <div class="tile is-parent is-6">
       <div class="tile is-child box image-container">
-        <figure class="image image is-1by1">
-          <img src="http://bulma.io/images/placeholders/480x480.png">
+        <figure class="image is-square">
+          <a href="#"><img src="./img/snapchatwtext.png"></a>
         </figure>
+        <a class="button is-warning is-med is-outlined" id="large-pic-btn">Learn More</a>
       </div>
     </div>
 
@@ -69,24 +72,34 @@
       </div>
       <div class="tile is-child box" id="box-two">
         <h2 class="is-size-4 has-text-white">Learn the optimal angles for Selfies!</h2>
-        <a class="button is-white is-large is-outlined" id="learn-more-btn">Learn More</a>
+        <a class="button is-white is-large is-outlined" id="learn-more-btn">Read more</a>
       </div>
     </div>
 
     <div class="tile is-parent">
       <div class="tile is-child box has-text-white" id="box-three">
-        <h3></h3>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit facere ab odio, cumque deleniti dolor eum sunt voluptatum neque voluptatem explicabo quos error, nemo! Tempora culpa, dignissimos optio, placeat laudantium hic molestiae, nulla blanditiis magnam suscipit est consequatur iusto magni assumenda. Temporibus distinctio quam ipsum, consequatur, ratione debitis reprehenderit nulla!
+
+        </h3>
       </div>
     </div>
-    <!-- Tiles End  -->
+  </section>
+  <!-- Tiles End  -->
 
-
+  <footer class="footer has-text-white">
+    <div class="container">
+      <div class="content has-text-centered">
+        Site designed by: <a href="https://github.com/mylesdawson" target="_blank"id="name">Myles Dawson</a>
+        <a class="icon footer-icon" href="https://github.com/mylesdawson" target="_blank">
+          <i class="fa fa-github has-text-danger"></i>
+        </a>
+        <a class="icon footer-icon" href="https://twitter.com/MylesADawson" target="_blank">
+          <i class="fa fa-twitter has-text-danger"></i>
+        </a>
+      </div>
       
-
-
-  </div>
-  
-
+    </div>
+  </footer>
 
   <script
     src="http://code.jquery.com/jquery-3.2.1.js"
